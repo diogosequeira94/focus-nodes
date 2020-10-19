@@ -1,16 +1,15 @@
 # flutter_focus_nodes
 
-A new Flutter project.
+Flutter Sample App showing how to interact with Focus Nodes.
 
-## Getting Started
+## What is the use of FocusNode?
 
-This project is a starting point for a Flutter application.
+As we all know that there are many input type TextFormField in our form filling process, we have to input many details in different text area according to its requirement.
+When our application has many TextFormFieldand the one which is selected and accepting an input from the user is said to have in a “focus” state. After providing an input to a focused TextFormField our focus now moves to another or says to the next TextFormField area. Here to implement such processes on focusing our selected TextFormField we use FocusNode.
 
-A few resources to get you started if this is your first Flutter project:
+## How to focus on a TextFormField when a button is tapped?
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Following steps to be performed to focus on a TextFormField:
+1. Create a FocusNode.
+2. Pass the FocusNode .
+3. Give focus to the next TextFormFieldwhen the button is tapped.
